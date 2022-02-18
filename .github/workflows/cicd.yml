@@ -67,7 +67,7 @@ jobs:
         sleep 60
         kubectl run curl --image=curlimages/curl -i --rm --restart=Never -- curl myapp:8080
 
-    - name: Send email
+    - name: Send email 
       if: always()
       uses: dawidd6/action-send-mail@v2
       with:
