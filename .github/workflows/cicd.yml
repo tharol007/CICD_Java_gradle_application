@@ -81,4 +81,4 @@ jobs:
         # comma-separated string, send email to
         to: deekshith.snsep@gmail.com
         # from email name
-        from: deekshith.snsep@gmail.com
+        from: deekshith.snsep@gmail.com 
